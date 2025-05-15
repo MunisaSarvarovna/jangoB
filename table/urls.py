@@ -2,8 +2,7 @@ from django.urls import path
 from . import views
 
 urlpatterns = [
-    path('',views.salom),
-    path('info/',views.class_info),
-
+    path('',views.home),
+    path('<day>/', views.week)
 
 ]

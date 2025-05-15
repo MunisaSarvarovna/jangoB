@@ -8,3 +8,5 @@ def salom(request):
 
 def class_info(request):
     return HttpResponse("schoolda 20 ta oquchi bor")
+
+
